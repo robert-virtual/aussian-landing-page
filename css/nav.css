@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --bg-light: #fff6ef;
+  --text-color: #262628;
+  --text-color-accent: #f47c1b;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+nav h1 {
+  position: absolute;
+  transform: translateY(-100vh);
+}
+nav a#logo {
+  position: absolute;
+}
+nav a img {
+  width: 10rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+nav ul li a:hover {
+  color: var(--text-color-accent);
+  transition: 0.5s all;
+}
+nav ul {
+  list-style: none;
+}
+nav,
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background: var(--bg-light);
+  justify-content: space-between;
+  border-bottom: 0.5rem solid var(--text-color);
+  height: 5rem;
+}
+
+nav ul {
+  margin-right: 1rem;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+nav label {
+  display: none;
+}
+nav ul img {
+  display: none;
+}
+nav input#menu {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul img {
+    display: block;
+    width: 10rem;
+    position: static;
+    border-bottom: solid 1px var(--text-color);
+  }
+  nav ul {
+    position: absolute;
+    top: -1%;
+    left: 0;
+    transform: translate(-100%, -1%);
+    transition: 0.5s all;
+    width: 60vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 6px gray;
+    align-items: start;
+  }
+  nav input#menu:checked ~ ul {
+    top: -1%;
+    left: 0;
+    transform: translate(0%, -1%);
+  }
+  nav input#menu:checked ~ label svg.btn-open {
+    display: none;
+  }
+  nav input#menu:checked ~ label svg.btn-close {
+    display: block;
+  }
+  nav input#menu:not(:checked) ~ label svg.btn-open {
+    display: block;
+  }
+  nav input#menu:not(:checked) ~ label svg.btn-close {
+    display: none;
+  }
+  nav label {
+    display: block;
+    width: 3rem;
+  }
+}
+main{
+    /* margin-top: 7rem; */
+}
+.screen {
+    padding: 7rem 1rem;
+  height: 100vh;
+}
