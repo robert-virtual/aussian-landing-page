@@ -1,0 +1,48 @@
+
+.boton {
+  align-items: center;
+  background-color: #F47C1B;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #181818;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.boton:focus {
+  color: #171e29;
+}
+
+.boton:hover {
+  border-color: white;
+  color: white;
+  fill: white;
+}
+
+.boton:active {
+  border-color: white;
+  fill: white;
+}
+
+@media (min-width: 768px) {
+  .boton {
+    min-width: 170px;
+  }
+}

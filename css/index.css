@@ -1,0 +1,117 @@
+.screen,
+.screen2 {
+    width: 100%;
+    height: 80vh;
+    background-color: #FFF6EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen img {
+    /* background-color: red; */
+    width: 15%;
+    height: auto;
+}
+
+
+.screen2 {
+    background-color: #262628;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    height: 95vh;
+}
+
+
+#somos {
+    width: 80%;
+    font-size: 30px;
+    height: auto;
+    text-align: center;
+}
+
+#exp {
+    color: #F47C1B;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Iconos {
+    width: 40%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+}
+
+
+.Iconos .box {
+    /* background-color: green; */
+    margin-left: 2%;
+    width: 18%;
+    text-align: center;
+}
+
+.Iconos .box p {
+    font-size: 12px;
+}
+
+.screen2 .box {
+    width: 30%;
+}
+
+.screen2 #icon {
+    margin: 5% 50%;
+    /* background-color: red; */
+}
+
+.screen2 .box h1 {
+    position: relative;
+    font-size: 40px;
+}
+
+.screen2 .box h1::after {
+    content: '';
+    position: absolute;
+    background-color: #F47C1B;
+    width: 98%;
+    height: 10%;
+    left: 0%;
+    bottom: -10%;
+}
+
+.screen2 .box h1,
+.screen2 .box p {
+    color: white;
+    margin-left: 2%;
+    /* background-color: red; */
+    width: 90%;
+}
+
+.screen2 .box p {
+    font-size: 20px;
+}
+
+.pbox{
+    height: 80px;
+    width: 80%;
+    background-color: #F47C1B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 5%;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.pbox:nth-child(1){
+    margin-top: 15%;
+}
+.pbox:nth-child(4){
+    height: 110px;
+    /* background-color: red; */
+}
+
+.tipo{
+  font-size: 20px;
+}
