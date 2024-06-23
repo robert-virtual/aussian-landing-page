@@ -5,6 +5,9 @@
   --text-color: #262628;
   --text-color-accent: #f47c1b;
 }
+.color-accent{
+color: var(--text-color-accent);
+}
 html,
 body {
   padding: 0;
@@ -32,6 +35,10 @@ nav ul li a {
 nav ul li a:hover {
   color: var(--text-color-accent);
   transition: 0.5s all;
+}
+nav ul li a:active{
+
+  color: var(--text-color-accent);
 }
 nav ul {
   list-style: none;
@@ -116,4 +123,28 @@ main{
 .screen {
     padding: 7rem 1rem;
   height: 100vh;
+}
+#quienes-somos {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#quienes-somos p{
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 0 7rem ;
+}
+#quienes-somos img{
+  width: 15rem;
+  place-self: center;
+}
+ul.items-experiencia{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+#quienes-somos ul li img{
+  width:5rem;
 }
