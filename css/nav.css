@@ -15,7 +15,7 @@ body {
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
-nav h1 {
+nav h1 {  
   position: absolute;
   transform: translateY(-100vh);
 }
@@ -51,6 +51,7 @@ nav {
   justify-content: space-between;  
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   height: 5rem;
+  z-index: 1;
 }
 
 nav ul {
