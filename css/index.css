@@ -297,3 +297,26 @@ form .bntCard {
     margin-top: 2%;
 }
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .screen{        
+        /* width: 100vw; */
+        
+    }
+    .screen img{                
+        width: 200px;
+    }
+
+    #somos{
+        font-size: 18px;        
+    }
+    .Iconos{        
+        width: 102%;        
+        margin-left: -8%;
+    }
+
+    .Iconos .box p{
+        font-size: 9px;
+    }
+
+}

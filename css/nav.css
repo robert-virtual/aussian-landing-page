@@ -5,6 +5,7 @@
   --text-color: #262628;
   --text-color-accent: #f47c1b;
 }
+
 html,
 body {
   padding: 0;
@@ -15,24 +16,30 @@ body {
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
-nav h1 {  
+
+nav h1 {
   position: absolute;
   transform: translateY(-100vh);
 }
+
 nav a#logo {
   position: absolute;
 }
+
 nav a img {
   width: 10rem;
 }
+
 nav ul li a {
   text-decoration: none;
   color: var(--text-color);
 }
+
 nav ul li a:hover {
   color: var(--text-color-accent);
   transition: 0.5s all;
 }
+
 nav ul {
   list-style: none;
 }
@@ -40,7 +47,7 @@ nav ul {
 nav,
 nav ul {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 nav {
@@ -48,7 +55,7 @@ nav {
   top: 0;
   width: 100vw;
   background: var(--bg-light);
-  justify-content: space-between;  
+  justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   height: 5rem;
   z-index: 1;
@@ -63,20 +70,35 @@ nav ul {
 nav label {
   display: none;
 }
+
 nav ul img {
   display: none;
 }
+
 nav input#menu {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+main {
+  /* margin-top: 7rem; */
+}
+
+.screen {
+  padding: 7rem 1rem;
+  height: 100vh;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
   nav ul img {
     display: block;
     width: 10rem;
     position: static;
     border-bottom: solid 1px var(--text-color);
   }
+
   nav ul {
     position: absolute;
     top: -1%;
@@ -90,32 +112,31 @@ nav input#menu {
     box-shadow: 0 0 6px gray;
     align-items: start;
   }
-  nav input#menu:checked ~ ul {
+
+  nav input#menu:checked~ul {
     top: -1%;
     left: 0;
     transform: translate(0%, -1%);
   }
-  nav input#menu:checked ~ label svg.btn-open {
+
+  nav input#menu:checked~label svg.btn-open {
     display: none;
   }
-  nav input#menu:checked ~ label svg.btn-close {
+
+  nav input#menu:checked~label svg.btn-close {
     display: block;
   }
-  nav input#menu:not(:checked) ~ label svg.btn-open {
+
+  nav input#menu:not(:checked)~label svg.btn-open {
     display: block;
   }
-  nav input#menu:not(:checked) ~ label svg.btn-close {
+
+  nav input#menu:not(:checked)~label svg.btn-close {
     display: none;
   }
+
   nav label {
     display: block;
     width: 3rem;
   }
-}
-main{
-    /* margin-top: 7rem; */
-}
-.screen {
-    padding: 7rem 1rem;
-  height: 100vh;
 }
