@@ -1,9 +1,13 @@
+:root{
+    --box-init-width:8.5rem;
+}
 .screen,
 .screen2,
 .screen5 {
     position: relative;
-    width: 100%;
-    height: 80vh;
+    width: 100vw;
+    height: fit-content;
+    padding: 1rem;
     /* background-color: green; */
     background-color: #FFF6EF;
     display: flex;
@@ -15,6 +19,21 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+.grid{
+    display: grid;
+}
+.grid-items-center{
+    justify-items: center;
+    align-items: center;
+}
+.w-90{
+    width: (100/3)vh;
+}
+.grid-cols-auto-23rem{
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+}
+
 
 .screen img {
     /* background-color: red; */
@@ -31,7 +50,8 @@
     display: flex;
     flex-direction: row;
     align-items: start;
-    height: 95vh;
+    /* height: 95vh; */
+    height: fit-content;
 }
 
 #somos {
@@ -48,17 +68,20 @@
 }
 
 .Iconos {
-    width: 40%;
-    height: 100px;
+    width: 100%;
+    /* height: 100px; */
     /* background-color: red; */
-    display: flex;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(var(--box-init-width),1fr));
 }
 
 
 .Iconos .box {
     /* background-color: green; */
     margin-left: 2%;
-    width: 18%;
+    /* width: 18%; */
+    width: var(--box-init-width);
     text-align: center;
 }
 
@@ -66,9 +89,9 @@
     font-size: 12px;
 }
 
-.screen2 .box {
+/* .screen2 .box {
     width: 30%;
-}
+} */
 
 .screen2 #icon {
     margin: 5% 50%;
@@ -175,10 +198,11 @@
     margin: auto;
     display: flex;
     flex-direction: row;    
+    justify-content: center;
 }
 
 .screen3 .box .pbox{
-    width: 17%;
+    /* width: 17%; */
     height: 300px;
     padding: 1%;
     margin: auto;
@@ -267,14 +291,16 @@
 
 .Contactenos input,
 textarea {
-    background-color: #D9D9D9;
+    /* background-color: #D9D9D9; */
+    background-color: transparent;
     outline: none;
-    border: none;
+    border: solid 0.1rem #7e7e7e;
     width: 748px;
     height: 50px;
     font-size: 25px;
     text-align: center;
     margin-top: 2%;
+    border-radius: 5rem;
 }
 
 textarea {
@@ -286,6 +312,7 @@ form {
     position: relative;
     display: flex;
     flex-direction: column;
+    
 }
 
 form .bntCard {
@@ -297,12 +324,44 @@ form .bntCard {
     margin-top: 2%;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}
+.gap-3{
+    gap: 3rem;
+}
+.gap-1{
+    gap: 1rem;
+}
+.btn{
+    background: none;
+    border: none;
+}
+.w-10{
+    width: 2.5rem;
+}
+.text-4xl{
+    font-size: 2.25rem;
+}
+.items-center{
+    align-items: center;
+    justify-items: center;
+}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
-    .screen{        
+    /* .screen{         */
         /* width: 100vw; */
-        
-    }
+    /* } */
     .screen img{                
         width: 200px;
     }

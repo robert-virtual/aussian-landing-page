@@ -98,7 +98,9 @@
       </div>
     </section>
     <section class="screen2 Animado">
-      <div class="box">
+      <div class="grid grid-cols-auto-23rem grid-items-center">
+
+      <div class="box w-90">
         <svg xmlns="http://www.w3.org/2000/svg" id="icon" height="48px" viewBox="0 -960 960 960" width="48px"
           fill="#e8eaed">
           <path
@@ -112,10 +114,10 @@
         </P>
         <button class="boton" role="button">ver más</button>
       </div>
-      <div class="box">
+      <div class="box w-90">
         <img src="./assets/Default_APP_DEV_MOVIL_COLORES_ANARANJADO_Y_NEGRO_3-removebg-preview.png" alt="">
       </div>
-      <div class="box">
+      <div class="box w-90 ">
         <div class="pbox">
           <p class="tipo">Desarrollo de Aplicaciones Nativas para iOS y Android</p>
         </div>
@@ -132,6 +134,7 @@
         <div class="pbox">
           <p class="tipo">Mantenimiento y Soporte Continuo</p>
         </div>
+      </div>
       </div>
     </section>
     <section class="screen3 Animado">
@@ -320,17 +323,52 @@
       <div class="Contactenos" id="Contactenos">
         <p>Si necesitas más información envianos un correo</p>
         <p>Nos estaremos contactando contigo a la brevedad posible.</p>        
-        <form action="https://formsubmit.co/" method="post" id="FormularioCorreo">
-          <input name="nombre" type="text" id="nombre" placeholder="Nombre" required="true">
-          <input name="telefono" type="number" id="telefono" inputmode="numeric" required="true" placeholder="Teléfono">
-          <input name="email" type="text" id="email" placeholder="Correo" inputmode="email" required="true">
-          <textarea name="Servicio" id="Servicio" placeholder="Servicio" required="true" cols="30"
-            rows="10"></textarea>
-            <button class="boton" type="submit" style="margin-top: 5%;">Enviar</button>          
+        <div class="row gap-3 mt-3 ">
+          <div class="col">
+            <label>Nuestra información de contacto</label>
+            <div class="col">
+              <h3>Emails</h3>
+              <h4>robertocastillo945@gmail.com</h4>
+              <h4>eduardo.reyes@gmail.com</h4>
+            </div>
+            <div class="col">
+              <h3>Whatsapp</h3>
+              <h4>+504 8813-7603</h4>
+              <div>
+                <span>Escribeme</span>
+                <button class="btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
+                </button>
+              </div>
+              <h4>+504 8881-6110</h4>
 
-          <input type="hidden" name="_next" value="https://consisasa.github.io/consisa.github.io/">
-          <input type="hidden" name="_captcha" value="false">
-        </form>
+              <div>
+                <span>Escribeme</span>
+                <button class="btn w-10">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <form class="col items-center" action="https://formsubmit.co/robertocastillo945@gmail.com" method="post" id="FormularioCorreo">
+            <label >Envianos tu consulta o tu sistema soñado</label>
+            <input name="nombre" type="text" id="nombre" placeholder="Nombre" required="true">
+            <input name="telefono" type="number" id="telefono" inputmode="numeric" required="true" placeholder="Teléfono">
+            <input name="email" type="text" id="email" placeholder="Correo" inputmode="email" required="true">
+            <textarea name="Servicio" id="Servicio" placeholder="Servicio" required="true" cols="30"
+              rows="10"></textarea>
+              <button class="boton" type="submit" style="margin-top: 5%;">Enviar</button>          
+
+            <input type="hidden" name="_next" value="/">
+            <input type="hidden" name="_captcha" value="false">
+          </form>
+        </div>
+
       </div>
     </section>
   </main>

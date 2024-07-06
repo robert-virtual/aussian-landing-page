@@ -5,6 +5,11 @@ var Toques = 0;
 
 function mostrarScroll() {
   let scrollTop = document.documentElement.scrollTop;
+  console.log({width:window.screen.width});
+  // por el momento en movil vamos a dejar sin animaciones: porque no se mira bien
+  if (window.screen.width <= 768) {
+   return 
+  }
   for (var i = 0; i < animado.length; i++) {
     let AlturaAnimado = animado[i].offsetTop;
     if (AlturaAnimado - 500 < scrollTop) {
