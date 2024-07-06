@@ -172,25 +172,25 @@
     flex-direction: column;    
 }
 
-.screen3 .titulo, .screen4 .titulo{    
+.screen3 .grid .titulo, .screen4 .titulo{    
     width: 40%;
     margin-left: 5%;
     margin-top: 2%;    
 }
 
-.screen3 .titulo h1, .screen4 .titulo h1{
+.screen3 .grid .titulo h1, .screen4 .titulo h1{
     text-transform: uppercase;
     font-size: 40px;
     position: relative;
     width: 65%;    
 }
 
-.screen3 .titulo p, .screen4 .titulo p{
+.screen3 .grid .titulo p, .screen4 .titulo p{
     font-size: 20px;
     width: 60%;    
 }
 
-.screen3 .titulo h1::after, .screen4 .titulo h1::after{
+.screen3 .grid .titulo h1::after, .screen4 .titulo h1::after{
     content: '';
     position: absolute;
     background-color: #F47C1B;
