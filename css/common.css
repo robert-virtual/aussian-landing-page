@@ -1,45 +1,46 @@
-
 :root {
   --bg-light: #fff6ef;
   --text-color: #262628;
   --text-color-accent: #f47c1b;
 }
 
-.bg-light{
-    background-color: var(--bg-light);
+.bg-light {
+  background-color: var(--bg-light);
+}
+.text-white {
+  color: white;
 }
 
-
-.color-accent{
-    color: var(--text-color-accent);
+.color-accent {
+  color: var(--text-color-accent);
 }
-.text-center{
-    text-align: center;    
+.text-center {
+  text-align: center;
 }
-.text-1_5rem{
-    font-size: 1.5rem;
+.text-1_5rem {
+  font-size: 1.5rem;
 }
-.text-2rem{
-    font-size: 2rem;
+.text-2rem {
+  font-size: 2rem;
 }
-.text-3rem{
-    font-size: 3rem;
-}
-
-.px-5rem{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.pt-4rem{
-    padding-top: 4rem;
-}
-.mt-1rem{
-    margin-top: 2rem;
+.text-3rem {
+  font-size: 3rem;
 }
 
-.m-center{
-    margin: auto;
-    width: 50%;
+.px-5rem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pt-4rem {
+  padding-top: 4rem;
+}
+.mt-1rem {
+  margin-top: 2rem;
+}
+
+.m-center {
+  margin: auto;
+  width: 50%;
 }
 /* 
 @media only screen and (max-width: 600px) {

@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AUSSIAN</title>
     <link rel="stylesheet" href="../css/nav.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/boton.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
     <script src="../js/favicon.js"></script>
   </head>
   <body class="bg-light">
@@ -32,7 +36,7 @@
           <a href="/#contactanos">Contactanos</a>
         </li>
         <li>
-          <a href="#">Quienes Somos</a>
+          <a href="#quienes-somos">Quienes Somos</a>
         </li>
       </ul>
       <label for="menu">
@@ -67,8 +71,8 @@
       </label>
     </nav>
     <main>
-      <section class="pt-4rem px-5rem text-1_5rem m-center">
-        <h2 class="text-center text-3rem">Quienes Somos</h2>
+      <section class="pt-24 px-5rem text-1_5rem m-center" id="quienes-somos">
+        <h2 class="text-center font-bold text-3rem">Quienes Somos</h2>
         <p>
           En <span class="color-accent">Aussian</span>, somos un equipo
           apasionado y dedicado de dos desarrolladores de software con una
@@ -91,8 +95,67 @@
           prosperar en un entorno empresarial en constante cambio.
         </p>
       </section>
+      <section class="screen2 Animado text-white h-fit">
+        <div class="flex flex-col items-center w-full">
+          <h2 class="text-3rem mt-6 mb-6">CONOCENOS</h2>
+          <div class="flex flex-row gap-12 w-full justify-around">
+            <!-- José -->
+            <div class="flex flex-row gap-2">
+              <!-- shape -->
+              <img
+                src="../assets/iconos/figura-conocenos-divider-persona.svg"
+                alt="figura-conocenos-divider-persona"
+              />
+              <!-- nombre -->
+              <div>
+                <h3 class="text-3xl">Jose Reyes</h3>
+                <p>Ing. Ciencias de la Computacion</p>
+              </div>
+              <!-- image -->
+              <img
+                class="h-64 self-end"
+                src="../assets/imagen-jose.png"
+                alt=""
+              />
+            </div>
+            <!-- Roberto -->
+            <div class="flex flex-row gap-6">
+              <!-- shape -->
+              <img
+                src="../assets/iconos/figura-conocenos-divider-persona.svg"
+                alt="figura-conocenos-divider-persona"
+              />
+              <!-- nombre -->
+              <div>
+                <h3 class="text-3xl">Roberto Castillo</h3>
+                <p>Ing. Ciencias de la Computacion</p>
+              </div>
+              <!-- image -->
+              <img
+                class="w-52 self-end"
+                src="../assets/imagen-roberto.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <h2
+            class="text-4xl mt-10 self-start ms-32 border-y-2 border-gray-50 py-12"
+          >
+            Portafolio Tecnológico...
+          </h2>
+          <div class="flex flex-row text-3xl mt-6 w-full justify-around">
+            <h3 class="border-b-4 border-[#f47c1b]">Lenguajes</h3>
+            <h3 class="border-b-4 border-[#f47c1b]">Librerias y Frameworks</h3>
+            <h3 class="border-b-4 border-[#f47c1b]">Bases de Datos</h3>
+          </div>
+          <img src="../assets/tecnologias.png" alt="" />
+        </div>
+      </section>
     </main>
 
     <script src="../js/common.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/favicon.js"></script>
   </body>
 </html>
