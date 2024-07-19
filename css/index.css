@@ -70,8 +70,7 @@
 }
 
 
-.screen img {
-    /* background-color: red; */
+.screen img {    
     width: 15%;
     height: auto;
 }
@@ -82,12 +81,10 @@
 
 .screen2,
 .screen4 {
-    background-color: #262628;
-    /* display: flex; */
+    background-color: #262628;    
     flex-direction: row;
     align-items: start;
-    min-height: 95vh;
-    /* height: fit-content; */
+    min-height: 95vh;    
 }
 
 .screen2 {
@@ -95,8 +92,7 @@
     display: flex;
     flex-direction: row;
     align-items: start;
-    min-height: 95vh;
-    /* height: fit-content; */
+    min-height: 95vh;    
 }
 
 #somos {
@@ -114,18 +110,14 @@
 
 .Iconos {
     width: 100%;
-    /* height: 100px; */
-    /* background-color: red; */
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(var(--box-init-width), 1fr));
 }
 
 
-.Iconos .box {
-    /* background-color: green; */
-    margin-left: 2%;
-    /* width: 18%; */
+.Iconos .box {    
+    margin-left: 2%;    
     width: var(--box-init-width);
     text-align: center;
 }
@@ -134,13 +126,8 @@
     font-size: 12px;
 }
 
-/* .screen2 .box {
-    width: 30%;
-} */
-
 .screen2 #icon {
     margin: 5% 50%;
-    /* background-color: red; */
 }
 
 .screen2 .box h1 {
@@ -162,7 +149,6 @@
 .screen2 .box p {
     color: white;
     margin-left: 2%;
-    /* background-color: red; */
     width: 90%;
 }
 
@@ -187,7 +173,6 @@
 
 .pbox:nth-child(4) {
     height: 110px;
-    /* background-color: red; */
 }
 
 .tipo {
@@ -197,8 +182,7 @@
 
 
 .screen3 {
-    min-height: 95vh;
-    /* height: fit-content; */
+    min-height: 95vh;    
     padding: 1rem;
     position: relative;
     display: flex;
@@ -206,8 +190,7 @@
 }
 
 .screen3 .grid .titulo,
-.screen4 .titulo {
-    /* width: 40%; */
+.screen4 .titulo {    
     margin-left: 5%;
     margin-top: 2%;
 }
@@ -238,9 +221,6 @@
 }
 
 .screen3 img {
-    /* position: absolute; */
-    /* right: 7%;
-    top: 4%; */
     width: 300px;
     height: auto;
 }
@@ -253,8 +233,7 @@
     justify-content: center;
 }
 
-.screen3 .grid .pbox {
-    /* width: 17%; */
+.screen3 .grid .pbox {    
     height: 300px;
     padding: 1%;
     margin: auto;
@@ -327,10 +306,6 @@
     color: white;
 }
 
-.screen4 .titulo {
-    /* background-color: red; */
-}
-
 .screen4 .titulo h1,
 .screen4 .titulo p {
     width: 100%;
@@ -349,13 +324,11 @@
 
 .screen5 img {
     width: auto;
-    /* background-color: red; */
     height: 40px;
 }
 
 .screen5 h1 {
-    font-size: 40px;
-    /* background-color: green; */
+    font-size: 40px;    
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -383,8 +356,7 @@
 }
 
 .Contactenos input,
-textarea {
-    /* background-color: #D9D9D9; */
+textarea {    
     background-color: transparent;
     outline: none;
     border: solid 0.1rem #7e7e7e;
@@ -433,8 +405,7 @@ form .bntCard {
 .col {
     display: flex;
     flex-direction: column;
-    width: 45%;
-    /* background-color: red;     */
+    width: 45%;    
     height: 500px;
     margin: auto;
 }
@@ -498,9 +469,6 @@ form .bntCard {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 
-    /* .screen{         */
-    /* width: 100vw; */
-    /* } */
     .screen img {
         width: 200px;
     }
