@@ -1,17 +1,18 @@
-:root{
-    --box-init-width:8.5rem;
+:root {
+    --box-init-width: 8.5rem;
 }
-.mt-5{
+
+.mt-5 {
     margin-top: 5rem;
 }
+
 .screen,
 .screen2,
 .screen5 {
     position: relative;
-    width: 100vw;
+    width: 97.9vw;
     height: fit-content;
-    padding: 1rem;
-    /* background-color: green; */
+    padding: 1rem;    
     background-color: #FFF6EF;
     display: flex;
     flex-direction: column;
@@ -19,43 +20,53 @@
     align-items: center;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-.grid{
+.grid {
     display: grid;
 }
-.self-justify-end{
+
+.self-justify-end {
     justify-self: end;
 }
-.p-1{
+
+.p-1 {
     padding: 0.25rem;
 }
-.mb-3{
+
+.mb-3 {
     margin-bottom: 3rem;
 }
-.align-between{
+
+.align-between {
     align-content: space-between;
 }
-.grid-cols-auto-25rem{
-    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+
+.grid-cols-auto-25rem {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
-.grid-col-auto-17rem{
-    grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
+
+.grid-col-auto-17rem {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
-.w-71{
+
+.w-71 {
     width: 17rem;
 }
-.grid-items-center{
+
+.grid-items-center {
     justify-items: center;
     align-items: center;
 }
-.w-90{
+
+.w-90 {
     width: (100/3)vh;
 }
-.grid-cols-auto-23rem{
-    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+
+.grid-cols-auto-23rem {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 
@@ -65,11 +76,12 @@
     height: auto;
 }
 
-.screen{
+.screen {
     width: 97.35%;
 }
 
-.screen2, .screen4{
+.screen2,
+.screen4 {
     background-color: #262628;
     /* display: flex; */
     flex-direction: row;
@@ -77,6 +89,7 @@
     min-height: 95vh;
     /* height: fit-content; */
 }
+
 .screen2 {
     background-color: #262628;
     display: flex;
@@ -105,7 +118,7 @@
     /* background-color: red; */
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(var(--box-init-width),1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--box-init-width), 1fr));
 }
 
 
@@ -157,7 +170,7 @@
     font-size: 20px;
 }
 
-.screen2 .pbox{
+.screen2 .pbox {
     height: 80px;
     width: 80%;
     background-color: #F47C1B;
@@ -168,48 +181,53 @@
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
-.pbox:nth-child(1){
+.pbox:nth-child(1) {
     margin-top: 15%;
 }
-.pbox:nth-child(4){
+
+.pbox:nth-child(4) {
     height: 110px;
     /* background-color: red; */
 }
 
-.tipo{
-  font-size: 20px;
+.tipo {
+    font-size: 20px;
 }
 
 
 
-.screen3{
+.screen3 {
     min-height: 95vh;
     /* height: fit-content; */
     padding: 1rem;
     position: relative;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-.screen3 .grid .titulo, .screen4 .titulo{    
+.screen3 .grid .titulo,
+.screen4 .titulo {
     /* width: 40%; */
     margin-left: 5%;
-    margin-top: 2%;    
+    margin-top: 2%;
 }
 
-.screen3 .grid .titulo h1, .screen4 .titulo h1{
+.screen3 .grid .titulo h1,
+.screen4 .titulo h1 {
     text-transform: uppercase;
     font-size: 40px;
     position: relative;
-    width: 65%;    
+    width: 65%;
 }
 
-.screen3 .grid .titulo p, .screen4 .titulo p{
+.screen3 .grid .titulo p,
+.screen4 .titulo p {
     font-size: 20px;
-    width: 60%;    
+    width: 60%;
 }
 
-.screen3 .grid .titulo h1::after, .screen4 .titulo h1::after{
+.screen3 .grid .titulo h1::after,
+.screen4 .titulo h1::after {
     content: '';
     position: absolute;
     background-color: #F47C1B;
@@ -219,7 +237,7 @@
     bottom: -10%;
 }
 
-.screen3 img{
+.screen3 img {
     /* position: absolute; */
     /* right: 7%;
     top: 4%; */
@@ -227,15 +245,15 @@
     height: auto;
 }
 
-.screen3 .box{
+.screen3 .box {
     width: 90%;
     margin: auto;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     justify-content: center;
 }
 
-.screen3 .grid .pbox{
+.screen3 .grid .pbox {
     /* width: 17%; */
     height: 300px;
     padding: 1%;
@@ -248,82 +266,96 @@
     text-align: center;
 }
 
-.screen3 .grid .pbox:nth-child(2), .screen3 .grid .pbox:nth-child(4){
+.screen3 .grid .pbox:nth-child(2),
+.screen3 .grid .pbox:nth-child(4) {
     background-color: #262628;
 }
 
-.screen3 .grid .pbox svg{
-    margin: 10% auto 0% auto;    
+.screen3 .grid .pbox svg {
+    margin: 10% auto 0% auto;
 }
-.screen3 .grid .pbox p{
+
+.screen3 .grid .pbox p {
     height: 50%;
     font-size: 24px;
     color: white;
 }
 
-.screen4{
+.screen4 {
     background-color: #262628;
 }
-.w-fit{
-    width:fit-content ;
+
+.w-fit {
+    width: fit-content;
 }
-.rounded-md{
+
+.rounded-md {
     border-radius: 0.375rem;
 }
-.border-2{
+
+.border-2 {
     border-style: solid;
     border-width: 2px;
 }
-.border-black{
+
+.border-black {
     border-color: #262628;
 }
-.grid-cols-auto-20rem{
-    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+
+.grid-cols-auto-20rem {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
-.w-50vw{
+
+.w-50vw {
     width: 50vw;
 }
-.w-80{
+
+.w-80 {
     width: 20rem;
 }
-.max-w-45rem{
+
+.max-w-45rem {
     max-width: 45rem;
 }
-.w-32{
+
+.w-32 {
     width: 8rem;
 }
-.screen4 .titulo h1, .screen4 .titulo p{
-    color: white;    
+
+.screen4 .titulo h1,
+.screen4 .titulo p {
+    color: white;
 }
 
 .screen4 .titulo {
     /* background-color: red; */
 }
 
-.screen4 .titulo h1, .screen4 .titulo p{
+.screen4 .titulo h1,
+.screen4 .titulo p {
     width: 100%;
 }
 
-.screen4 .titulo h1::after{
+.screen4 .titulo h1::after {
     width: 85%;
 }
 
 
-.screen5{    
+.screen5 {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     height: 90vh;
 }
 
-.screen5 img{    
+.screen5 img {
     width: auto;
     /* background-color: red; */
-    height: 40px;    
+    height: 40px;
 }
 
-.screen5 h1{    
+.screen5 h1 {
     font-size: 40px;
-    /* background-color: green; */    
+    /* background-color: green; */
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -339,8 +371,8 @@
     align-items: center;
 }
 
-.Contactenos p:nth-child(1) {    
-    font-size: 40px;    
+.Contactenos p:nth-child(1) {
+    font-size: 40px;
     margin: 0% 0% 1% 0%;
 }
 
@@ -356,12 +388,12 @@ textarea {
     background-color: transparent;
     outline: none;
     border: solid 0.1rem #7e7e7e;
-    width: 748px;
+    width: 100%;
     height: 50px;
     font-size: 25px;
     text-align: center;
     margin-top: 2%;
-    border-radius: 5rem;
+    border-radius: 10px;
 }
 
 textarea {
@@ -373,7 +405,7 @@ form {
     position: relative;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 form .bntCard {
@@ -385,35 +417,79 @@ form .bntCard {
     margin-top: 2%;
 }
 
-.row{
+.row {
     display: flex;
-    flex-direction: row;
-}
-.col{
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0%;
 }
 
-.mt-3{
-    margin-top: 3rem;
+.col:nth-child(1) {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: auto;
 }
-.gap-3{
-    gap: 3rem;
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    /* background-color: red;     */
+    height: 500px;
+    margin: auto;
 }
-.gap-1{
-    gap: 1rem;
+
+.col:nth-child(3){    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
 }
-.btn{
+
+.col:nth-child(3) .box{
+    position: relative;
+    width: 45%;
+    height: 50%;    
+    margin: -30% auto;    
+    border-radius: 10px;
+    padding: 2%;
+    background-color: #F47C1B;
+    color: white;
+}
+
+.col:nth-child(3) .box:nth-child(2){
+    background-color: #181818;    
+}
+
+.col:nth-child(3) .box img{
+    position: absolute;
+    right: 5%;
+    top: 5%;    
+}
+
+.contactos {
+    background-color: #F47C1B;
+    color: white;
+    font-size: 17px;
+    border: 15px;
+    width: 100%;
+    text-align: center;
+    height: 5%;
+}
+
+.btn {
     background: none;
     border: none;
 }
-.w-10{
+
+.w-10 {
     width: 2.5rem;
 }
-.text-4xl{
+
+.text-4xl {
     font-size: 2.25rem;
 }
-.items-center{
+
+.items-center {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -421,22 +497,24 @@ form .bntCard {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
     /* .screen{         */
-        /* width: 100vw; */
+    /* width: 100vw; */
     /* } */
-    .screen img{                
+    .screen img {
         width: 200px;
     }
 
-    #somos{
-        font-size: 18px;        
+    #somos {
+        font-size: 18px;
     }
-    .Iconos{        
-        width: 102%;        
+
+    .Iconos {
+        width: 102%;
         margin-left: -8%;
     }
 
-    .Iconos .box p{
+    .Iconos .box p {
         font-size: 9px;
     }
 

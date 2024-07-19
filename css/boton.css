@@ -1,48 +1,41 @@
-
-.boton {
-  align-items: center;
+.BotonPrincipal {
   background-color: #F47C1B;
-  border: 2px solid #000;
+  border-radius: 3px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
   box-sizing: border-box;
-  color: #181818;
+  color: white;
   cursor: pointer;
-  display: inline-flex;
-  fill: #000;
-  font-family: Inter,sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: -.8px;
-  line-height: 24px;
-  min-width: 140px;
-  outline: 0;
-  padding: 0 17px;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
   text-align: center;
   text-decoration: none;
-  transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
 }
 
-.boton:focus {
-  color: #171e29;
+.BotonPrincipal:hover,
+.BotonPrincipal:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
 }
 
-.boton:hover {
-  border-color: white;
-  color: white;
-  fill: white;
+.BotonPrincipal:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
 }
 
-.boton:active {
-  border-color: white;
-  fill: white;
-}
-
-@media (min-width: 768px) {
-  .boton {
-    min-width: 170px;
-  }
+.BotonPrincipal:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
 }
