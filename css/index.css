@@ -1,9 +1,6 @@
 :root {
     --box-init-width: 8.5rem;
 }
-.mt-1{
-    margin-top: 1rem;
-}
 
 .mt-5 {
     margin-top: 5rem;
@@ -472,8 +469,6 @@ form .bntCard {
 .contactos {
     background-color: #F47C1B;
     color: white;
-    margin-bottom: 1rem;
-    padding: 0.25rem;
     font-size: 17px;
     border: 15px;
     width: 100%;
@@ -498,10 +493,6 @@ form .bntCard {
     display: flex;
     align-items: center;
     justify-items: center;
-}
-.link{
-    color: white;
-    text-decoration: none;
 }
 
 
