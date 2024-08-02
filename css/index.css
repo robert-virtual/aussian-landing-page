@@ -84,7 +84,7 @@
     background-color: #262628;    
     flex-direction: row;
     align-items: start;
-    min-height: 95vh;    
+    min-height: 95vh;
 }
 
 .screen2 {
@@ -243,6 +243,7 @@
     flex-direction: column;
     border-radius: 10px;
     text-align: center;
+    margin-top: 5%;
 }
 
 .screen3 .grid .pbox:nth-child(2),
@@ -489,4 +490,102 @@ form .bntCard {
         font-size: 9px;
     }
 
+    .row{
+        flex-direction: column;
+        width: 95%;                
+    }
+
+    .Contactenos .col p {        
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    .contactos{
+        width: 300px;
+        height: 7%;
+        font-size: 15px;
+    }
+
+    .screen,.screen5, .screen2 {
+        width: 91%;        
+    }
+
+    .screen5{
+        height: auto;
+    }
+
+    .col input{        
+        margin-top: 2%;
+        font-size: 18px;
+    }    
+
+    .row .col:nth-child(2){        
+        width: 95%;
+        height: auto;
+        margin-bottom: 2%;        
+    }
+
+    .row .col:nth-child(3){ 
+        width: 95%;        
+        height: 300px;        
+    }
+
+    .row .col:nth-child(3) .box{        
+        margin: 0%;
+        font-size: 10px;
+        width: 100%;
+        height: 100px;
+        margin-left: 5%;
+    }
+
+    .row .col:nth-child(3) .box p{
+        font-size: 10px;
+    }
+
+    #Servicio{        
+        font-size: 18px;
+    }
+
+    .grid .box img{
+        width: 300px;
+        margin-top: 5%;        
+        margin-left: -5%;
+    } 
+
+    .grid .box p{        
+        font-size: 18px;
+        margin-left: 5%;        
+    }
+
+    #imgDesa{                     
+        margin-left: 2%;
+    }
+    
+    .grid .titulo{        
+        font-size: 18px;
+    }
+
+    .screen3 .grid .pbox {  
+        width: 200px;
+        height: 170px;            
+    }
+
+    .screen3 .grid .titulo p{          
+        width: 95%;
+        font-size: 18px;        
+    }
+
+    .screen2 .grid .pbox {         
+        margin: 5% auto;
+    }
+
+    .screen3 .grid .pbox p{  
+        font-size: 15px;
+    }
+
+    .grid .titulo p{
+        font-size: 17px;
+    }
+
+   
 }
