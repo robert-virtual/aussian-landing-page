@@ -438,6 +438,10 @@ form .bntCard {
     top: 5%;    
 }
 
+#imgDesa{
+    margin: auto;
+}
+
 .contactos {
     background-color: #F47C1B;
     color: white;
@@ -483,7 +487,7 @@ form .bntCard {
 
     .Iconos {
         width: 102%;
-        margin-left: -8%;
+        margin: auto;
     }
 
     .Iconos .box p {
@@ -533,13 +537,14 @@ form .bntCard {
     .row .col:nth-child(3) .box{        
         margin: 0%;
         font-size: 10px;
-        width: 100%;
+        width: 95%;
         height: 100px;
         margin-left: 5%;
     }
 
     .row .col:nth-child(3) .box p{
-        font-size: 10px;
+        font-size: 14px;
+        margin-left: 2%;
     }
 
     #Servicio{        
@@ -548,19 +553,23 @@ form .bntCard {
 
     .grid .box img{
         width: 300px;
-        margin-top: 5%;        
-        margin-left: -5%;
+        margin: auto;
     } 
+
+    #imgDesa{                     
+        margin: auto;
+    }
+
+    #desarrolloWeb{
+        /* background-color: red; */
+        margin-left: 33.5%;
+    }
 
     .grid .box p{        
         font-size: 18px;
         margin-left: 5%;        
     }
 
-    #imgDesa{                     
-        margin-left: 2%;
-    }
-    
     .grid .titulo{        
         font-size: 18px;
     }
