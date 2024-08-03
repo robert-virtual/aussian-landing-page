@@ -3,10 +3,11 @@
 
 
     .principal{
-        width: 300px;
+        width: 225%;
         margin: auto;
-        margin-left: -56%;
+        margin-left: -60%;
         font-size: 18px;        
+        text-align: center;
     }
 
     .screen2{        
