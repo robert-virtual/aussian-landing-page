@@ -1,162 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/nav.css" />    
-    <link rel="icon" type="image/x-icon" href="../assets/favicon-dark.ico" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="/css/boton.css" />
-    <link rel="stylesheet" href="/css/animations.css" />
-    <title>Aussian</title>
-    <script src="../js/favicon.js"></script>
-  </head>
-  <body class="bg-light">
-    <nav>
-      <h1>AUSSIAN</h1>
-      <a id="logo" href="/">
-        <img
-          src="../assets/aussian-dark-text-transparent.png"
-          alt="logo aussian"
-        />
-      </a>
-      <div id="necesary"></div>
-      <input type="checkbox" id="menu" />
-      <ul>
-        <img
-          onclick="gotoHome()"
-          src="../assets/aussian-dark-text-transparent.png"
-          alt="logo aussian"
-        />
-        <li>
-          <a href="/#servicios">Servicios</a>
-        </li>
-        <li>
-          <a href="/#contactanos">Contactanos</a>
-        </li>
-        <li>
-          <a href="#quienes-somos">Quienes Somos</a>
-        </li>
-      </ul>
-      <label for="menu">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-6 btn-open"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-6 btn-close"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18 18 6M6 6l12 12"
-          />
-        </svg>
-      </label>
-    </nav>
-    <main>
-      <section class="pt-24 px-5rem text-1_5rem m-center" id="quienes-somos">
-        <h2 class="text-center font-bold text-3rem">Quienes Somos</h2>
-        <p>
-          En <span class="color-accent">Aussian</span>, somos un equipo
-          apasionado y dedicado de dos desarrolladores de software con una
-          misión clara crear soluciones <br />
-          tecnológicas innovadoras que impulsen la eficiencia y competitividad
-          <br />
-          de las empresas.
-        </p>
-        <p>
-          Creemos que el tamaño de nuestro equipo no limita nuestra capacidad
-          para ofrecer soluciones de alta calidad.
-        </p>
-        <p>
-          Cada proyecto es una oportunidad para demostrar nuestro compromiso con
-          la excelencia y la innovación.
-        </p>
-        <p>
-          Estamos aquí para acompañar a nuestros clientes en su camino hacia el
-          éxito, proporcionando las herramientas tecnológicas necesarias para
-          prosperar en un entorno empresarial en constante cambio.
-        </p>
-      </section>
-      <section class="screen2 Animado text-white h-fit">
-        <div class="flex flex-col items-center w-full">
-          <h2 class="text-3rem mt-6 mb-6">CONOCENOS</h2>
-          <div class="flex flex-row gap-12 w-full justify-around">
-            <!-- José -->
-            <div class="flex flex-row gap-2">
-              <!-- shape -->
-              <img
-                src="../assets/iconos/figura-conocenos-divider-persona.svg"
-                alt="figura-conocenos-divider-persona"
-              />
-              <!-- nombre -->
-              <div>
-                <h3 class="text-3xl">Jose Reyes</h3>
-                <p>Ing. Ciencias de la Computacion</p>
-              </div>
-              <!-- image -->
-              <img
-                class="h-64 self-end"
-                src="../assets/imagen-jose.png"
-                alt=""
-              />
-            </div>
-            <!-- Roberto -->
-            <div class="flex flex-row gap-6">
-              <!-- shape -->
-              <img
-                src="../assets/iconos/figura-conocenos-divider-persona.svg"
-                alt="figura-conocenos-divider-persona"
-              />
-              <!-- nombre -->
-              <div>
-                <h3 class="text-3xl">Roberto Castillo</h3>
-                <p>Ing. Ciencias de la Computacion</p>
-              </div>
-              <!-- image -->
-              <img
-                class="w-52 self-end"
-                src="../assets/imagen-roberto.png"
-                alt=""
-              />
-            </div>
-          </div>
 
-          <h2
-            class="text-4xl mt-10 self-start ms-32 border-y-2 border-gray-50 py-12"
-          >
-            Portafolio Tecnológico...
-          </h2>
-          <div class="flex flex-row text-3xl mt-6 w-full justify-around">
-            <h3 class="border-b-4 border-[#f47c1b]">Lenguajes</h3>
-            <h3 class="border-b-4 border-[#f47c1b]">Librerias y Frameworks</h3>
-            <h3 class="border-b-4 border-[#f47c1b]">Bases de Datos</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="icon" type="image/x-icon" href="../assets/favicon-dark.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="/css/quienes-somos.css" />
+  <link rel="stylesheet" href="/css/boton.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <title>Aussian</title>
+  <script src="../js/favicon.js"></script>
+</head>
+
+<body class="bg-light">
+  <nav>
+    <h1>AUSSIANG</h1>
+    <a id="logo" href="/">
+      <img src="../assets/aussian-dark-text-transparent.png" alt="logo aussian" />
+    </a>
+    <div id="necesary"></div>
+    <input type="checkbox" id="menu" />
+    <ul>
+      <img onclick="gotoHome()" src="../assets/aussian-dark-text-transparent.png" alt="logo aussian" />
+      <li>
+        <a href="/#servicios">Servicios</a>
+      </li>
+      <li>
+        <a href="/#contactanos">Contactanos</a>
+      </li>
+      <li>
+        <a href="#quienes-somos">Quienes Somos</a>
+      </li>
+    </ul>
+    <label for="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 btn-open">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 btn-close">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </label>
+  </nav>
+  <main>
+    <section class="pt-24 px-5rem text-1_5rem m-center" id="quienes-somos">
+      <h2 class="principal text-center font-bold text-3rem">Quienes Somos</h2>
+      <p class="principal">
+        En <span class="color-accent">Aussiang</span>, somos un equipo
+        apasionado y dedicado de dos desarrolladores de software con una
+        misión clara crear soluciones tecnológicas innovadoras que impulsen la eficiencia y competitividad de las
+        empresas.
+      </p>
+      <br>
+      <p class="principal">
+        Creemos que el tamaño de nuestro equipo no limita nuestra capacidad
+        para ofrecer soluciones de alta calidad.
+      </p>
+      <br>
+      <p class="principal">
+        Cada proyecto es una oportunidad para demostrar nuestro compromiso con
+        la excelencia y la innovación.
+      </p>
+      <br>
+      <p class="principal">
+        Estamos aquí para acompañar a nuestros clientes en su camino hacia el
+        éxito, proporcionando las herramientas tecnológicas necesarias para
+        prosperar en un entorno empresarial en constante cambio.
+      </p>
+    </section>
+    <section class="screen2 Animado text-white h-fit">
+      <div class="flex flex-col items-center w-full">
+        <h2 id="Portafolio" class="text-3rem mt-6 mb-6">CONOCENOS</h2>
+        <div id="Conocenos" class="flex flex-row gap-12 w-full justify-around">
+          <!-- José -->
+          <div class="flex flex-row gap-2">
+            <!-- shape -->
+            <img src="../assets/iconos/figura-conocenos-divider-persona.svg" alt="figura-conocenos-divider-persona" />
+            <!-- nombre -->
+            <div>
+              <h3 class="text-3xl">Jose Reyes</h3>
+              <p>Ing. Ciencias de la Computacion</p>
+            </div>
+            <!-- image -->
+            <img id="img" class="h-64 self-end" src="../assets/imagen-jose.png" alt="" />
           </div>
-          <img src="../assets/tecnologias.png" alt="" />
+          <!-- Roberto -->
+          <div class="flex flex-row gap-6">
+            <!-- shape -->
+            <img src="../assets/iconos/figura-conocenos-divider-persona.svg" alt="figura-conocenos-divider-persona" />
+            <!-- nombre -->
+            <div>
+              <h3 class="text-3xl">Roberto Castillo</h3>
+              <p>Ing. Ciencias de la Computacion</p>
+            </div>
+            <!-- image -->
+            <img id="img" class="w-52 self-end" src="../assets/imagen-roberto.png" alt="" />
+          </div>
         </div>
-      </section>
-    </main>
 
-    <script src="../js/common.js"></script>
-    <script src="../js/animations.js"></script>
-    <script src="../js/favicon.js"></script>
-  </body>
+        <h2 id="Portafolio" class="text-4xl mt-10 self-start ms-32 border-y-2 border-gray-50 py-12">
+          Portafolio Tecnológico...
+        </h2>
+        <div class="flex flex-row text-3xl mt-6 w-full justify-around">
+          <h3 id="Portafolio2" class="border-b-4 border-[#f47c1b]">Lenguajes</h3>
+          <h3 id="Portafolio2" class="border-b-4 border-[#f47c1b]">Librerias y Frameworks</h3>
+          <h3 id="Portafolio2" class="border-b-4 border-[#f47c1b]">Bases de Datos</h3>
+        </div>
+        <img src="../assets/tecnologias.png" alt="" />
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/animations.js"></script>
+  <script src="../js/favicon.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,37 @@
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+
+    .principal{
+        width: 300px;
+        margin: auto;
+        margin-left: -56%;
+        font-size: 18px;        
+    }
+
+    .screen2{        
+        width: 100%;
+    }
+
+    #Conocenos{
+        flex-direction: column;        
+    }
+
+    #img{        
+        position: absolute;
+        left: 25%;
+    }
+
+    #Portafolio{
+        margin: 5% auto;
+        font-size: 24px;
+        /* background-color: red; */
+    }
+
+
+    #Portafolio2{
+        margin: 5% auto;
+        font-size: 12px;
+        /* background-color: red; */
+    }
+}
