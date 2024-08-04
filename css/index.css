@@ -507,6 +507,7 @@ form .bntCard {
     .contactos{
         width: 300px;
         height: 7%;
+        margin: auto;
         font-size: 15px;
     }
 
