@@ -25,7 +25,8 @@
 
 .titulo {
     position: relative;
-    width: 135px;
+    width: 110%; 
+    margin-left: -18%;       
 }
 
 .column:nth-child(2) {
@@ -37,7 +38,7 @@
     content: '';
     position: absolute;
     background-color: #F47C1B;
-    width: 100%;
+    width: 125%;
     height: 8px;
     bottom: -10%;
 }
@@ -49,7 +50,7 @@
     width: 10%;
     height: 3097px;
     top: 100%;
-    left: 45%;
+    left: 55%;
 }
 
 
@@ -98,9 +99,10 @@ p {
         margin-top: 5%;
     }
 
-    .titulo {        
+    .titulo {    
+        width: 135%;    
         top: -10%;
-        left: -5%;
+        left: -45%;
     }
 
     .titulo::after {
